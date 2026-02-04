@@ -1,0 +1,21 @@
+# RSS Reader - Default Configuration
+# Fetches articles from RSS/Atom feeds
+
+# RSS feeds to fetch
+feeds:
+  - name: "Hacker News"
+    url: "https://hnrss.org/frontpage"
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+
+# Time window
+hours: 24
+
+# Maximum items per feed
+limit: 10
+
+# Output settings
+output:
+  format: markdown
+  include_description: true
+  max_description_length: 200

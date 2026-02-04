@@ -1,0 +1,23 @@
+# GitHub Reader - Default Configuration
+# Fetches trending repositories from GitHub
+
+# Keywords to search
+keywords:
+  - langchain
+  - llm
+  - ai-agents
+
+# Filter by language (optional, remove to search all)
+language: python
+
+# Repositories per keyword
+per_keyword: 5
+
+# Time window for "pushed" filter
+hours: 48
+
+# Output settings
+output:
+  format: markdown
+  include_description: true
+  include_stars: true

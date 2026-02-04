@@ -1,0 +1,32 @@
+# Inbox Reader - Default Configuration
+# Fetches news from Gmail (Google Alerts and Newsletters)
+
+# Gmail OAuth (requires studio lib)
+# Credentials configured via ~/.core/studio/.env
+
+# Sources to fetch
+sources:
+  - label: "AI News"
+    type: google_alert
+    priority: high
+  - label: "Newsletters"
+    type: newsletter
+    priority: medium
+
+# Time window (in days for Gmail)
+days: 3
+
+# Maximum emails per source
+limit: 20
+
+# Spam filtering
+filter_spam: true
+spam_patterns:
+  - "referral"
+  - "earn\\s*\\$"
+  - "invite friends"
+
+# Output settings
+output:
+  format: markdown
+  group_by_source: true

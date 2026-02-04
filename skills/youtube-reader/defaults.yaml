@@ -1,0 +1,22 @@
+# YouTube Reader - Default Configuration
+# Fetches recent videos from YouTube channels
+
+# API key (from environment)
+api_key: ${YOUTUBE_API_KEY}
+
+# Channels to monitor
+channels:
+  - channel_id: REQUIRED
+    name: REQUIRED
+    max_videos: 5
+
+# Default max videos per channel
+max_videos_per_channel: 5
+
+# Time window
+hours: 72
+
+# Output settings
+output:
+  format: markdown
+  include_description: true

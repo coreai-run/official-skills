@@ -1,0 +1,23 @@
+# Reddit Reader - Default Configuration
+# Fetches posts from specified subreddits
+
+# Subreddits to fetch (without r/ prefix)
+subreddits:
+  - MachineLearning
+  - LocalLLaMA
+  - artificial
+
+# User agent for Reddit API
+user_agent: "COREAI-NewsBot/1.0"
+
+# Time window
+hours: 24
+
+# Maximum posts per subreddit
+limit: 15
+
+# Output settings
+output:
+  format: markdown      # markdown | json
+  include_snippet: true
+  include_score: true

@@ -1,0 +1,22 @@
+# Hacker News Reader - Default Configuration
+# Fetches stories from Hacker News via Algolia API
+
+# Search terms to query
+search_terms:
+  - AI
+  - LLM
+  - machine learning
+
+# Time window
+hours: 24
+
+# Maximum stories per search term
+limit: 10
+
+# Minimum points to include
+min_points: 10
+
+# Output settings
+output:
+  format: markdown
+  include_comments_count: true
