@@ -1,0 +1,44 @@
+[
+  {
+    "name": "coreai",
+    "description": "Core CLI helper - shows available commands and current profile",
+    "version": "1.0.0",
+    "core": true
+  },
+  {
+    "name": "adapt-skill",
+    "description": "Convert existing Claude Code skills to CORE AI-compatible format",
+    "version": "1.0.0",
+    "core": true
+  },
+  {
+    "name": "reddit-reader",
+    "description": "Fetch trending posts from Reddit subreddits",
+    "version": "1.0.0"
+  },
+  {
+    "name": "hackernews-reader",
+    "description": "Fetch stories from Hacker News",
+    "version": "1.0.0"
+  },
+  {
+    "name": "github-reader",
+    "description": "Fetch trending GitHub repositories",
+    "version": "1.0.0"
+  },
+  {
+    "name": "rss-reader",
+    "description": "Fetch articles from RSS feeds",
+    "version": "1.0.0"
+  },
+  {
+    "name": "youtube-reader",
+    "description": "Fetch recent videos from YouTube channels",
+    "version": "1.0.0"
+  },
+  {
+    "name": "inbox-reader",
+    "description": "Fetch news from Gmail alerts and newsletters",
+    "version": "1.0.0"
+  }
+]

@@ -4,7 +4,7 @@ Official skills for [CoreAI](https://github.com/coreai-run/coreai).
 
 ## Available Skills
 
-See [index.json](./index.json) for the full list.
+See [registry.json](./registry.json) for the full list.
 
 ## Installing Skills
 
