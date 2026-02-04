@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "hello-world",
+      "description": "A simple example skill",
+      "version": "1.0.0"
+    }
+  ]
+}
